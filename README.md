@@ -2,14 +2,12 @@
 
 Forensics Summarized
 
-- [Tools](#tools)
-  - [Disk Analysis](#Disk Analysis)
-    - [Types of Disks](#Types of Disks)
+- [Disk Analysis](#Disk Analysis)
+  - [Types of Disks](#Types of Disks)
 
 ---
 
-## Data Recovery
-
+## Disk Analysis
 ### Types of Disks
 - [Magnetic Storage Drives](https://en.wikipedia.org/wiki/Magnetic_storage) - Use Magnets to read and write (Example: Magnet Tapes)
 - [Optical Storage Drives](https://en.wikipedia.org/wiki/Optical_storage) - Use laser beams to read binary data (Example: CD, DVD)
