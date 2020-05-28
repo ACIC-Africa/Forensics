@@ -1,8 +1,7 @@
 # Forensics Summarized
 
-- [Awesome Forensics](#awesome-forensics)
-- [Collections](#collections)
-- [Tools](#tools)
+- [Disk Analysis](#disk-analysis)
+- [Types of Disks](#types-of-disks)
 
 ---
 
