@@ -1,0 +1,40 @@
+# Awesome Forensics [![Link Status](https://github.com/cugu/awesome-forensics/workflows/CI/badge.svg)](https://github.com/cugu/awesome-forensics)
+
+Curated list of awesome **free** (mostly open source) forensic analysis tools and resources.
+
+- [Awesome Forensics](#awesome-forensics)
+- [Collections](#collections)
+- [Tools](#tools)
+  - [Distributions](#distributions)
+  - [Frameworks](#frameworks)
+  - [Live forensics](#live-forensics)
+  - [Acquisition](#acquisition)
+  - [Imageing](#imageing)
+  - [Carving](#carving)
+  - [Memory Forensics](#memory-forensics)
+  - [Network Forensics](#network-forensics)
+  - [Windows Artifacts](#windows-artifacts)
+    - [NTFS/MFT Processing](#ntfsmft-processing)
+  - [OS X Forensics](#os-x-forensics)
+  - [Mobile Forensics](#mobile-forensics)
+  - [Docker Forensics](#docker-forensics)
+  - [Internet Artifacts](#internet-artifacts)
+  - [Timeline Analysis](#timeline-analysis)
+  - [Disk image handling](#disk-image-handling)
+  - [Decryption](#decryption)
+  - [Management](#management)
+  - [Picture Analysis](#picture-analysis)
+- [Learn Forensics](#learn-forensics)
+  - [CTFs](#ctfs)
+- [Resources](#resources)
+  - [Books](#books)
+  - [File System Corpora](#file-system-corpora)
+  - [Twitter](#twitter)
+  - [Blogs](#blogs)
+  - [Other](#other)
+- [Related Awesome Lists](#related-awesome-lists)
+- [Contributing](#contributing)
+
+---
+
+## Collections
