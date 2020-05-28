@@ -1,9 +1,8 @@
-# Awesome Forensics (https://github.com/ACIC-Africa/Forensics)
+# Forensics Summarized
 
-Forensics Summarized
-
-- [Disk Analysis](#Disk Analysis)
-  - [Types of Disks](#Types of Disks)
+- [Awesome Forensics](#awesome-forensics)
+- [Collections](#collections)
+- [Tools](#tools)
 
 ---
 
