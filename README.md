@@ -77,3 +77,9 @@ Recovering forensic data from a mobile device. This includes extraction of data 
 - Hardware
 - Radio Interface, gateway and network interface
 - Network
+
+### Mobile Forensics Tools
+- [FTK Imager](https://accessdata.com/product-download/ftk-imager-version-4-2-0) - Image mobile device
+- [dd](https://en.wikipedia.org/wiki/Dd_(Unix)) and [SSH](https://lifehacker.com/how-to-install-and-set-up-ssh-on-your-jailbroken-ios-de-5760626) : Install SSH on a jailbroken Iphone and create disk image using dd.
+- [ADB](https://en.wikipedia.org/wiki/Dd_(Unix)) : Used in bypassing Android phone locks
+- [IExplorer](http://www.macroplant.com/): Bypass Iphone Password Lock
