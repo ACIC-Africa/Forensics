@@ -112,3 +112,13 @@ Recovering forensic data from a mobile device. This includes extraction of data 
 - [Macrium Reflect Server](https://www.macrium.com/products/business/standalone/server)
 - [R-Drive Image](https://www.drive-image.com/)
 - [O&O DiskImage 10](https://docs.oo-software.com/en/oodiskimage-10)
+
+#### Static Malware Analysis Tools
+- [HashMyFiles](https://www.nirsoft.net/utils/hash_my_files.html): Fingerprinting files
+- [MD5SUM](https://www.commandlinux.com/man-page/man1/md5sum.1.html), [SHA1SUM](https://www.commandlinux.com/man-page/man1/sha1sum.1.html), [SHA256SUM](https://www.commandlinux.com/man-page/man1/sha256sum.1.html): Fingerprinting files
+- [VirusTotal](https://www.virustotal.com/gui/): Online Malware Analysis
+- [Jotti](https://virusscan.jotti.org/): Online Malware Analysis
+- [ResourcesExtract](https://www.nirsoft.net/utils/resources_extract.html): Extract Strings
+- [Bintext](https://www.aldeid.com/wiki/BinText): Extract Strings
+- [Hex Workshop](http://www.hexworkshop.com/): Extract Strings
+- [PEid](https://www.aldeid.com/wiki/PEiD): Extract information on obsufcation
