@@ -40,7 +40,12 @@ This are cables or devices used to interface between the hard drive and the comp
 ### Hard Disk Partitions
 Creation of logical drives for effective memory management
 - Primary partition: Holds operating system and system area information required for booting
+  - Boot Sector: 
+    - BIOS Parameter Block: Contains information about the physical layout of the disk and file system layout. This is used to locate the file table on the hard drive.
+    - [Master boot Record (MBR)](https://en.wikipedia.org/wiki/Master_boot_record): Holds the partition table and stores information on the files on the disk. It also contains executable code to load the installed operating.
+    - Master Boot Code: Finds the active partition used in boot loading process in order to load the operating system (OS)
 - Extended partition: Holds information on data and files stored
+
 
 ### Hard Disk Forensics Tools
 - [Autopsy](https://www.sleuthkit.org/): A digital forensics platform and GUI for The Sleuth Kit (TLK) used for:
@@ -61,3 +66,14 @@ Creation of logical drives for effective memory management
 - [HxD - Freeware Hex Editor and Disk Editor](https://mh-nexus.de/en/hxd/): Used for raw disk editing and modifying of main memory (RAM).
 - [WinHex Hex Editor](http://www.winhex.com/winhex/hex-editor.html): Used for raw disk editing and modifying of main memory (RAM).
 - [Hex Workshop](http://www.hexworkshop.com/): Used for raw disk editing and modifying of main memory (RAM).
+- dd: Backup MBR on a Linux system.
+
+## Mobile Forensics
+Recovering forensic data from a mobile device. This includes extraction of data from the SIM card, Internal memory card and SD card.
+### Mobile Architecture
+- Client Application
+- Communication API, Phone API, GUI API and Middleware Components
+- Operating System
+- Hardware
+- Radio Interface, gateway and network interface
+- Network
