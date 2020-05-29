@@ -83,3 +83,32 @@ Recovering forensic data from a mobile device. This includes extraction of data 
 - [dd](https://en.wikipedia.org/wiki/Dd_(Unix)) and [SSH](https://lifehacker.com/how-to-install-and-set-up-ssh-on-your-jailbroken-ios-de-5760626) : Install SSH on a jailbroken Iphone and create disk image using dd.
 - [ADB](https://en.wikipedia.org/wiki/Dd_(Unix)) : Used in bypassing Android phone locks
 - [IExplorer](http://www.macroplant.com/): Bypass Iphone Password Lock
+
+
+## Malware Forensics
+
+### Malware Forensics Tools
+#### Virtual Environments
+- [VirtualBox](https://www.virtualbox.org/) - Virtual environment for testing malware
+- [Vmware Player](https://www.vmware.com/products/workstation-player.html) - Virtual environment for testing malware for MAC
+- [Parallels Desktop 11](https://www.parallels.com/parallelsdesktop11/) - Virtual environment for testing malware
+- [Boot Camp](https://support.apple.com/boot-camp) - Virtual environment for testing malware
+- [Vmware Vsphere Hypervisor](https://www.vmware.com/products/vsphere-hypervisor.html) - Virtual environment for testing malware
+
+#### Screen Capture
+- [OBS](https://www.virtualbox.org/) - Screen Capture
+- [Snagit](https://www.techsmith.com/screen-capture.html) - Screen Capture
+- [Camtasia](https://www.techsmith.com/video-editor.html) - Video editor and Screen Capture
+- [Ezvid](https://www.ezvid.com/) - Video editor and Screen Capture
+
+#### Network Simulator
+- [Netsim](https://www.tetcos.com/)
+- [ns-3](https://www.nsnam.org/)
+- [Riverbed Modeler](https://cms-api.riverbed.com/portal/community_home)
+- [QualNet](https://www.scalable-networks.com/products/qualnet-network-simulation-software-tool/)
+
+#### OS Backup and Imaging Tools
+- [Genie Backup Manger Pro](https://www.zoolz.com/genie9/business-users/genie-backup-manager-professional/)
+- [Macrium Reflect Server](https://www.macrium.com/products/business/standalone/server)
+- [R-Drive Image](https://www.drive-image.com/)
+- [O&O DiskImage 10](https://docs.oo-software.com/en/oodiskimage-10)
