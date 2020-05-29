@@ -37,8 +37,13 @@ This are cables or devices used to interface between the hard drive and the comp
 - Lost / Orphan Cluster: Operating systems mark clusters as used even though they do not contain any files. This may occur due to disk corruption or not closing a file or when a user shuts down a comuter without closing applications.
 - Bad Sectors: Damaged portion of the disk that do not support read and write operations.
 
+### Hard Disk Partitions
+Creation of logical drives for effective memory management
+- Primary partition: Holds operating system and system area information required for booting
+- Extended partition: Holds information on data and files stored
+
 ### Hard Disk Forensics Tools
-- Autopsy: A digital forensics platform and GUI for The Sleuth Kit (TLK) used for:
+- [Autopsy](https://www.sleuthkit.org/): A digital forensics platform and GUI for The Sleuth Kit (TLK) used for:
   - Timeline analysis
   - PhotoRec: Recover deleted files from unallocated space
   - Hash filtering
@@ -47,9 +52,12 @@ This are cables or devices used to interface between the hard drive and the comp
   - View images
   - Search for indicators of compromise using Stix.
 - Chkdsk.exe: Default Windows utility (C:\Windows\System32\chkdsk.exe) that detects and repairs bad sectors or errors in file systems and disks.
-- The Sleuth Kit (TLK): A set of tools used to analyze disk images and review the disk layout, history, partitions and file system.
+- [The Sleuth Kit (TLK)](https://www.sleuthkit.org/): A set of tools used to analyze disk images and review the disk layout, history, partitions and file system.
   - fstat: General details of the file system
   - istat: Details of metadata structure
   - fls: List files and directory files in a disk image
   - img_stat: Display details of an image file
-- 
+- [Active@ Disk Editor](https://www.disk-editor.org/index.html): Used to examine disk partitions
+- [HxD - Freeware Hex Editor and Disk Editor](https://mh-nexus.de/en/hxd/): Used for raw disk editing and modifying of main memory (RAM).
+- [WinHex Hex Editor](http://www.winhex.com/winhex/hex-editor.html): Used for raw disk editing and modifying of main memory (RAM).
+- [Hex Workshop](http://www.hexworkshop.com/): Used for raw disk editing and modifying of main memory (RAM).
