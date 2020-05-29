@@ -13,7 +13,7 @@
 - [Hard Disk Drive (HDD)](https://en.wikipedia.org/wiki/Hard_disk_drive) - Non-volatile memory that stores data magnetically.
 - [Solid State Drive (SSD)](http://en.wikipedia.org/wiki/Solid-state_drive) - Non-volatile memory that implements Solid state technology to store dat like a hard disk drive. Uses NAND Based SSD to store data even after power failure and Volatile RAM-based SSD for fast data access.
 ### Logical System Structure
-This is dependent on the file system used and the operating system used to read data.
+The logical system structure ccontrols how data is arranged and read on the system.
 - [FAT](https://en.wikipedia.org/wiki/File_Allocation_Table) - Originally designed for floppy disks and used on DOS and Windows 9x systems.
 - [FAT32](https://en.wikipedia.org/wiki/File_Allocation_Table#FAT32)
 - [NTFS](https://en.wikipedia.org/wiki/NTFS) - Supported on Windows, Linux, BSD and read-only support on macOS
@@ -23,7 +23,33 @@ This is dependent on the file system used and the operating system used to read 
 - [EXT 4](https://en.wikipedia.org/wiki/Ext4)
 - [EFS](https://en.wikipedia.org/wiki/Extent_File_System)
 ### Hard Disk Interfaces
-- [Serial ATA (SATA)](https://en.wikipedia.org/wiki/Serial_ATA)
-- [Small Computer System Interface (SCSI)](https://en.wikipedia.org/wiki/SCSI)
-- [Serial Attached SCSI](https://en.wikipedia.org/wiki/Serial_Attached_SCSI)
+This are cables or devices used to interface between the hard drive and the computer.
+- [Serial ATA (SATA)](https://en.wikipedia.org/wiki/Serial_ATA) - Channel between motherboard and hard drive
+- [Small Computer System Interface (SCSI)](https://en.wikipedia.org/wiki/SCSI) - Interface between computer and CD drives,printers, scanners or disk drives.
+- [Serial Attached SCSI](https://en.wikipedia.org/wiki/Serial_Attached_SCSI) - Handles data flow between storage devices.
 - [ATA/PATA (IDE/EIDE)](https://en.wikipedia.org/wiki/Parallel_ATA)
+### Hard Disk Sectors
+This are cables or devices used to interface between the hard drive and the computer.
+- Clusters: Are smallest accessible storage units on a hard disk
+- Slack: The area of the file and the end of the cluster. Slack space ma contain deleted data.
+  - RAM Slack
+  - Drive Slack
+- Lost / Orphan Cluster: Operating systems mark clusters as used even though they do not contain any files. This may occur due to disk corruption or not closing a file or when a user shuts down a comuter without closing applications.
+- Bad Sectors: Damaged portion of the disk that do not support read and write operations.
+
+### Hard Disk Forensics Tools
+- Autopsy: A digital forensics platform and GUI for The Sleuth Kit (TLK) used for:
+  - Timeline analysis
+  - PhotoRec: Recover deleted files from unallocated space
+  - Hash filtering
+  - Keyword searches
+  - Extract web activity
+  - View images
+  - Search for indicators of compromise using Stix.
+- Chkdsk.exe: Default Windows utility (C:\Windows\System32\chkdsk.exe) that detects and repairs bad sectors or errors in file systems and disks.
+- The Sleuth Kit (TLK): A set of tools used to analyze disk images and review the disk layout, history, partitions and file system.
+  - fstat: General details of the file system
+  - istat: Details of metadata structure
+  - fls: List files and directory files in a disk image
+  - img_stat: Display details of an image file
+- 
